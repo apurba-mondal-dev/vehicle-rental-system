@@ -1,0 +1,25 @@
+vehicle-rental-system
+
+├── domain
+   ├── Vehicle.java
+   ├── Car.java
+   ├── Truck.java
+   ├── Motorcycle.java
+   ├── Customer.java
+   └── Rental.java
+
+├── repository
+   ├── IVehicleRepository.java
+   └── InMemoryVehicleRepository.java
+
+├── service
+   └── RentalManager.java
+
+├── exception
+   ├── RentalException.java
+   ├── VehicleNotFoundException.java
+   ├── AvailabilityException.java
+   └── InvalidDurationException.java
+
+└── main
+    └── Main.java
